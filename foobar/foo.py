@@ -8,5 +8,8 @@ class Foo:
     def bar(self):
         return self.num * 10000
 
+    def baz(self):
+        return chr(int(self.num*26) + 97)
+
     def print(self):
         print(100 * self.num)
