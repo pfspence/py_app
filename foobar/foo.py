@@ -6,7 +6,7 @@ class Foo:
         self.num = random()
 
     def bar(self):
-        return self.num * 10000
+        return self.num * 100
 
     def baz(self):
         return chr(int(self.num*26) + 97)
