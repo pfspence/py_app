@@ -1,6 +1,7 @@
+import sys
+sys.path.append('../app')
 
-
-class App:
+class Bar:
     def __init__(self, name):
         self.name = name
 
@@ -12,4 +13,4 @@ class App:
 
 
 if __name__ == "__main__":
-    app = App('quux')
+    app = Bar('quux')
