@@ -6,7 +6,7 @@ class Bar:
         self.name = name
 
     def foo(self):
-        return f"{self.name}_foo"
+        return f"{self.name}_foos"
 
     def bar(self):
         return f"{self.name}_bar"
